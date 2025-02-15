@@ -7,7 +7,7 @@ int main(){
     
     switch(c) {
         case '+':
-        printf("%d", a+b);
+        printf("%f", a+b);
         break;
 
         case '-':
