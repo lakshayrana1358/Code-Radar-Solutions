@@ -7,10 +7,10 @@ int main(){
         isPrime = 0;
     } else {
         for (a = 2; i<a; i++){
-            if (i%a==0) [
+            if (i%a==0) {
                 isPrime = 0;
                 break;
-            ]
+        }
         }
     }
     if (isPrime) 
