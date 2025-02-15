@@ -6,8 +6,9 @@ int main(){
     if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u'
         || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U'){
         printf("Vowel");
-    } else if (a != 'a' || a != 'e' || a != 'i' || a != 'o' || a != 'u'
-        || a != 'A' || a != 'E' || a != 'I' || a != 'O' || a != 'U') {
+    } else if ((a != 'a' || a != 'e' || a != 'i' || a != 'o' || a != 'u'
+        || a != 'A' || a != 'E' || a != 'I' || a != 'O' || a != 'U')
+        && !(a<=0 || a>=0)) {
         printf("Consonant");
     } else if (a<=0 || a>=100) {
         printf("Digit");
