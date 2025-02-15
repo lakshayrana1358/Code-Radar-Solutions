@@ -6,8 +6,8 @@ int main(){
     if (a<2) {
         isPrime = 0;
     } else {
-        for (a = 2; i<a; i++){
-            if (i%a==0) {
+        for (i = 2; i<a; i++){
+            if (a%i==0) {
                 isPrime = 0;
                 break;
         }
