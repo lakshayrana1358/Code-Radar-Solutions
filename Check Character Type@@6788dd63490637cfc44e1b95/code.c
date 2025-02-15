@@ -10,7 +10,7 @@ int main(){
         || a != 'A' || a != 'E' || a != 'I' || a != 'O' || a != 'U')
         && !(a<=0 || a>=0)) {
         printf("Consonant");
-    } else if (a<=0 || a>=100) {
+    } else if (a<=0 && a>=100) {
         printf("Digit");
     } else {
         printf("Special Character");
