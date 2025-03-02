@@ -9,8 +9,8 @@ int main(){
         for (int j=0; j<2*i+1; j++){
             printf(" ");
         }
-        for (int j=o; j<i+1; j++){
-            printf("%d", m);
+        for (int j=0; j<i+1; j++){
+            printf("%d ", m);
             m++;
         }
         printf("\n");
