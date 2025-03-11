@@ -11,12 +11,11 @@ int main(){
         }
         for (int j=0; j<i+1; j++){
             printf("%d", num);
-            num++;
         }
         for (int j=0; j<i; j++){
             printf("%d", num);
-            num++;
         }
+        num++;
         printf("\n");
     }
     return 0;
