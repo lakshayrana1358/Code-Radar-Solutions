@@ -9,6 +9,7 @@ int isPrime(int n){
             return 1;
         }
     }
+    return 1;
 }
 #include <stdio.h>
 int main(){
