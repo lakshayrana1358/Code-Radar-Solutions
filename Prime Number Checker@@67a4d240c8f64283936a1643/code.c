@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int isPrime(int n){
     int isPrime = 1;
@@ -11,6 +10,7 @@ int isPrime(int n){
         }
     }
 }
+#include <stdio.h>
 int main(){
     int t; 
     scanf("%d", &t);
