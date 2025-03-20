@@ -11,7 +11,7 @@ int main(){
 
     for (int i=0; i<sz; i++){
         if (small > arr[i]){
-            small == arr[i];
+            arr[i] == small;
         }
     }
     printf("%d", small);
