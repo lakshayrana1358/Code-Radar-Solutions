@@ -17,7 +17,7 @@ int main(){
             small = arr[i];
         }
         if (arr[i] > large){
-            large; = arr[i]
+            large = arr[i];
         }
     }
     printf("%d %d", small, large);
