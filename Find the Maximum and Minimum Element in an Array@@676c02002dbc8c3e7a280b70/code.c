@@ -6,7 +6,7 @@ int main(){
     
     int arr[sz];
 
-    for (int i=0; i<n; i++){
+    for (int i=0; i<sz; i++){
         scanf("%d ", arr[i]);
     }
     int small = arr[0];
