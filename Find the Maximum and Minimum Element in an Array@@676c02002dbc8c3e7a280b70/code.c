@@ -4,11 +4,10 @@ int main(){
     int sz;
     scanf("%d", &sz);
 
-    for (int i=0; i<sz; i++){
-        int arr[sz];
-        scanf("%d", arr[i]);
-    }
     int arr[sz];
+    for (int i=0; i<sz; i++){
+        scanf("%d", &arr[i]);
+    }
     int small = arr[0];
     int large = arr[0];
 
