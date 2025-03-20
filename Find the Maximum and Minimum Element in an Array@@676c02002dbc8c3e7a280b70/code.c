@@ -13,10 +13,10 @@ int main(){
     int large = arr[0];
 
     for (int i=0; i<sz; i++){
-        if (small > arr[i]){
-            arr[i] == small;
+        if (arr[i] < small){
+            small = arr[i];
         }
-        if (large > arr[i]){
+        if (arr[i] > large){
             arr[i] = large;
         }
     }
