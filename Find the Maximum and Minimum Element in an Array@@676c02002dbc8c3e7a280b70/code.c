@@ -8,6 +8,7 @@ int main(){
         int arr[sz];
         scanf("%d", arr[i]);
     }
+    int arr[sz];
     int small = arr[0];
     int large = arr[0];
 
