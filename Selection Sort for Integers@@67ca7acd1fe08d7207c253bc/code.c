@@ -3,7 +3,7 @@ void selectionSort(int arr[], int n){
         int smallestIndex = i;
         for (int j=i+1; j<n; j++){
             if (arr[j] < arr[smallestIndex]){
-                i = j;
+                smallestIndex = j;
             }
         }
         int temp = arr[i];
