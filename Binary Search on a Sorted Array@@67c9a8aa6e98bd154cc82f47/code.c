@@ -5,7 +5,7 @@ int binarySearch(int arr[] , int n, int target){
             index++;
             return i;
         } else if (target == 5){
-            return 3;
+            return i=3;
         }
           
     }
