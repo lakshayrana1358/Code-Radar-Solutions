@@ -13,5 +13,7 @@ int findOccurrence(int arr[], int n, int target, char mode){
             }
         }
         return -1;
+    } else {
+        printf("-1");
     }
 }
