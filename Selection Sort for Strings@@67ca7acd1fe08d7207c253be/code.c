@@ -6,9 +6,10 @@ void selectionSort(char arr[][100], int n){
                 small = j;
             }
         }
-        char temp[100] = arr[i];
-        arr[small] = arr[i];
-        arr[i] = temp;
+        char temp[100];
+        strcpy(temp, arr[i]);
+        strcpy(arr[i], arr[small]);
+        strcpy(arr[small], temp);
     }
 }
 
