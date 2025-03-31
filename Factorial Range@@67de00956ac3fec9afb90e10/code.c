@@ -2,7 +2,6 @@ void factorialRange(int start, int end){
 
     if (start < 0 || end < 0 || start > end){
         printf("Invalid range");
-        break;
     }
 
     for (int i=start; i<=end; i++){
