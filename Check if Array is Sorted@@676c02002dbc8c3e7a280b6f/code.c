@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 void checkSort(int arr[], int n){
-    isSorted = 1;
+    int isSorted = 1;
 
     for (int i=0; i<n-1; i++){
         int isSwap = 0;
@@ -30,9 +30,9 @@ int main(){
     for (int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    checkSort(arr[], n);
+    int result = checkSort(arr, n);
 
-    if(isSorted){
+    if(result){
         printf("Sorted");
     } else {
         printf("Not Sorted");
