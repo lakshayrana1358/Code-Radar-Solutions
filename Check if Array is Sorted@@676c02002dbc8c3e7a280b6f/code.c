@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-void checkSort(int arr[], int n){
+int checkSort(int arr[], int n){
     int isSorted = 1;
 
     for (int i=0; i<n-1; i++){
