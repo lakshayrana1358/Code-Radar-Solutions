@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-int checkSort(int arr[], int n){
+void checkSort(int arr[], int n){
     for (int i=0; i<n-1; i++){
         int isSwap = 0;
         for (int j=0; j<n-i-1; j++){
@@ -12,7 +12,7 @@ int checkSort(int arr[], int n){
             }
         }
         if (!isSwap){
-            return 1;
+            return;
         }
     }
 }
@@ -26,7 +26,7 @@ int main(){
     for (int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-
+    checkSort(arr[], n);
     if(isSwap){
         printf("Sorted");
     } else {
